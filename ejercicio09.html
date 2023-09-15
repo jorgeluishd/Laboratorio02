@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Colores en CSS</title>
+    <style>
+        h1{text-align: center;
+        color: #e63946;
+    }
+    .caja{
+        padding: 10px;
+        color: white;
+        width: 100px;
+        height: 50px;
+        text-align: center;
+        margin: 5px auto;
+        font-size: 10px;
+        float: left;
+    }
+    .rojo{
+        background-color: crimson;
+    }
+    .rosa{background-color: deeppink;}
+    .rgb{
+        background-color: rgb(131, 56, 236);
+    }
+    .rgba{
+        background-color: rgba(131, 56, 236, .5);
+    }
+    .hexadecimal{
+        background-color: #0090ad88;
+    }
+    .hsl{
+        background-color: hsl(192, 100%, 50%);
+    }
+    .hsla{
+        background-color: rgba(0, 191, 255, 0.5);
+    }
+    </style>
+</head>
+<body>
+    <h1>Colores en CSS</h1>
+    <div class="caja rojo">
+        <p>Color por nombre HTML</p>
+    </div>
+    <div class="caja rosa">
+        <p>Color por nombre HTML</p>
+    </div>
+    <div class="caja rgb">
+        <p>Color por codigo RGB (red, green, blue, alfa)</p>
+    </div>
+    <div class="caja rgba">
+        <p>Color por codigo RGBA (red, green, blue, alfa)</p>
+    </div>
+    <div class="caja hexadecimal">
+        <p>Color por codigo hexadecimal</p>
+    </div>
+    <div class="caja hexa_trasnparencia">
+        <p>Color por codigo hexadecimal con transparencia</p>
+    </div>
+    <div class="caja hsl">
+        <p>Color por codigo HSL (hue, Saturation, lightness)</p>
+    </div>
+    <div class="caja hsla">
+        <p>Color por codigo HSLA (Con transparencia</p>
+    </div>
+</body>
+</html>
